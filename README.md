@@ -1,3 +1,3 @@
-Curso - php - UDT
+# Curso - php - UDT
 
 - Repositório para envio da resolução dos exercícios
