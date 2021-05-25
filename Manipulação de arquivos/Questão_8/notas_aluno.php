@@ -19,12 +19,15 @@
     fwrite($arquivo, $dados."\n");
 
     $list = array(
-        array('')
-    )
+        array('text'),
+        array('text'),
+        array('text'),
+        array('text')
+    );
 
-    # Fecha o arquivo
+    fgetcsv($arquivo, "w");
+
     fclose($arquivo);
 
-    # Redireciona para a tabela com a listagem
     header("location: listaNotas.php");
 ?>
